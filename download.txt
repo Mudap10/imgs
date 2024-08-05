@@ -11,3 +11,10 @@ filenam = os.path.basename(image_url)
 # Open the downloaded image
 img = Image.open(filenam)
 display.display(img)
+
+# open raw form
+https://github.com/Mudap10/imgs/blob/main/math.PNG
+https://raw.githubusercontent.com/Mudap10/imgs/main/math.PNG
+
+https://github.com/karpathy/micrograd/blob/master/puppy.jpg
+https://raw.githubusercontent.com/karpathy/micrograd/master/puppy.jpg

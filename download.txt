@@ -1,0 +1,13 @@
+
+import os
+from PIL import Image
+import IPython.display as display
+
+image_url = "https://raw.githubusercontent.com/deep-learning-with-pytorch/dlwpt-code/master/data/p1ch4/image-dog/bobby.jpg"
+!wget {image_url}
+
+filenam = os.path.basename(image_url)
+
+# Open the downloaded image
+img = Image.open(filenam)
+display.display(img)
